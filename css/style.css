@@ -1,8 +1,17 @@
+/*
+Palette
+fucsia #e479e6
+giallo #e1d67a
+azzurro #abcfe7
+blu #0286fe
+viola #8700fe
+*/
 /* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    clear:both;
 }
 
 /* Utility */
@@ -17,9 +26,25 @@
 }
 /* Header */
 header {
+   
+}
+.logo {
     width: 100%;
-    height: 10%;
-    background-color: violet;
+    height: 100px;
+    background-color: #e479e6;
     margin: 20px auto;
-
+    
+}
+.hero {
+    width: 100%;
+    height: 300px;
+    background-color: #e1d67a;
+    margin: 20px auto;
+    
+}
+ {
+    width: 100%;
+    height: 100px;
+    background-color: #e479e6;
+    margin: 20px auto;
 }
