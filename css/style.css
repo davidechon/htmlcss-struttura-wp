@@ -22,15 +22,14 @@ viola #8700fe
 }
 /* General */
 .container {
-    padding: 30px 100px;
-    border: 1px solid red;
+    padding: 20px 100px;
 }
 /* Header */
 .logo {
     width: 100%;
     height: 100px;
     background-color: #e479e6;
-    margin: 20px auto;
+    margin: 10px auto;
     
 }
 .hero {
@@ -43,9 +42,9 @@ viola #8700fe
 /* Main */
 main {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #0286fe;
-    margin: 20px auto;
+    margin: 20px auto 10px;
     
 }
 
@@ -57,7 +56,7 @@ main > header {
 }
 aside {
     width: calc(20% - 10px);
-    height: 280px;
+    height: 380px;
     margin: 10px 0;
     
 }
@@ -68,13 +67,20 @@ aside {
 }
 .main-container {
     width: 60%;
-    height: 280px;
+    height: 380px;
     margin: 10px;
     float: left;
-    background-color: violet;
+    background-color: #abcfe7;
 }
 .right {
     margin-right: 0;
     float: right;
     background-color: #abcfe7;
+}
+/* Footer */
+footer {
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: #8700fe;
 }
