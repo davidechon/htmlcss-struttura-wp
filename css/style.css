@@ -11,13 +11,14 @@ viola #8700fe
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    clear:both;
 }
+
 
 /* Utility */
 .debug {
     border: 1px solid black;
-    height: 100px;
+    /* height: 100px; */
+    height: 400px;
 }
 /* General */
 .container {
@@ -25,9 +26,6 @@ viola #8700fe
     border: 1px solid red;
 }
 /* Header */
-header {
-   
-}
 .logo {
     width: 100%;
     height: 100px;
@@ -42,9 +40,41 @@ header {
     margin: 20px auto;
     
 }
- {
+/* Main */
+main {
     width: 100%;
-    height: 100px;
-    background-color: #e479e6;
+    height: 400px;
+    background-color: #0286fe;
     margin: 20px auto;
+    
+}
+
+main > header {
+    height: 80px;
+    background-color: #abcfe7;
+    margin-bottom: 10px;
+   
+}
+aside {
+    width: calc(20% - 10px);
+    height: 280px;
+    margin: 10px 0;
+    
+}
+.left {
+    margin-left: 0;
+    float: left;
+    background-color: #abcfe7;
+}
+.main-container {
+    width: 60%;
+    height: 280px;
+    margin: 10px;
+    float: left;
+    background-color: violet;
+}
+.right {
+    margin-right: 0;
+    float: right;
+    background-color: #abcfe7;
 }
